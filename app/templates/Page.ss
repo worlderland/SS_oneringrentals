@@ -56,7 +56,7 @@
 		</header>
 		<!-- END HEADER -->
 		
-		<!-- $Layout variable fills the page with the requested page content -->
+		<!-- Variable Layout variable fills the page with the requested page content -->
 		$Layout
 
 		<!-- Include goes into the path templates/includes and in this case looks for Footer.ss -->		
