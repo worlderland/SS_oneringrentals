@@ -8,7 +8,26 @@
 			<!-- BEGIN MAIN CONTENT -->
 			<div class="main col-sm-8">
 				
-                $Content
+                <h1 class="blog-title">$Title</h1>
+				
+				<div class="blog-main-image">
+					<img src="http://placehold.it/765x362" alt="" />
+					<div class="tag"><i class="fa fa-file-text"></i></div>
+				</div>
+				
+				<div class="blog-bottom-info">
+					<ul>
+						<li><i class="fa fa-calendar"></i>$Date.long</li>
+						<li><i class="fa fa-comments-o"></i> 3 Comments</li>
+						<li><i class="fa fa-tags"></i> Properties, Prices, best deals</li>
+					</ul>
+					
+					<div id="post-author"><i class="fa fa-pencil"></i>$Author</div>
+				</div>
+				
+				<div class="post-content">
+					$Content
+				</div>
 								
 			</div>	
 			<!-- END MAIN CONTENT -->
